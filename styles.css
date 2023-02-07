@@ -1,7 +1,11 @@
+html {
+    background-color: aliceblue;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0px;
     background-color: #1f2937;
     color: white;
   }
@@ -57,7 +61,14 @@
     text-align: center;
     font-size: 0.8em;
   }
+ 
+  .info {
 
+    color: #1f2937;
+    background-color: aliceblue;
+    text-align: center;
+
+  }
   .posters {
     display: flex;
     justify-content: space-around;
@@ -68,3 +79,17 @@
     width: 15%;
     height: auto;
   }
+
+  .quotes {
+    padding: 80px;
+    margin-top: 20px;
+    background-color: #1f2937;
+  }
+
+  q {
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+  }
+
+  
