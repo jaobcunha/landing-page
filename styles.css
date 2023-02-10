@@ -1,26 +1,22 @@
-html {
-    background-color: aliceblue;
+body {
+    padding: 0;
+    margin: 0;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    background-color: #1f2937;
     color: white;
-  }
-
-  .header-content {
-    display: flex;
-    justify-content: space-between;
+    background-color: #3d405b;
     width: 100%;
-    flex-direction: column;
+    right: 0;
+    top: 0;
   }
 
-  .header-navbar {
-    width: 80%;
+.header-navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 2%;
+    background-color: #81B29A;
   }
 
   .header-navbar ul {
@@ -28,6 +24,7 @@ html {
     list-style: none;
     margin: 0;
     padding: 0;
+    right: 0;
   }
 
   .header-navbar ul li {
@@ -38,6 +35,23 @@ html {
     color: white;
     text-decoration: none;
   }
+.header-container {
+    display: flex;
+    padding: 15px;
+
+
+}
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: #3d405b;
+  }
+
+  
 
   .header-title {
     width: 50%;
@@ -64,8 +78,8 @@ html {
  
   .info {
 
-    color: #1f2937;
-    background-color: aliceblue;
+    color: #3d405b;
+    background-color: #F4F1DE;
     text-align: center;
 
   }
@@ -78,12 +92,23 @@ html {
   .posters img {
     width: 15%;
     height: auto;
+    border-radius: 3%;;
+  }
+
+  .posters img:hover {
+    opacity: 0.7;
+  }
+
+  .movie-titles {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
   }
 
   .quotes {
     padding: 80px;
     margin-top: 20px;
-    background-color: #1f2937;
+    background-color: #3d405b;
   }
 
   q {
